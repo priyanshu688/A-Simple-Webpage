@@ -1,0 +1,115 @@
+ .page
+  {
+     width:1500px;
+     height:auto;
+     border-style:groove;
+ }
+
+ .headerpart 
+  {
+     width:1495px;
+     height:280px;
+     margin-top:1px;
+     border-style:solid;
+     background-color:#808080;
+    // background-image:url('Images/header.png');
+     background-size:cover;
+     background-repeat:no-repeat;    
+}
+
+.linkspart
+  {
+    width:1476px;
+     height:21px;
+     margin-top:5px;
+     border-style: solid;
+     border-width: medium;
+    background-color: #29293d;
+    padding:0.6%;
+}
+
+  .linkspart a {
+    color:rgb(245,246,251);
+    text-decoration:none;
+    
+  }
+
+  .linkspart a:hover
+   {
+       background-color:rgb(245,246,251);
+       color:rgb(12,100,198);
+       
+   }
+
+  .bodypart
+   {
+    width:1493px;
+    height:604px;
+    margin-top:5px;
+    border-style: solid;
+  }
+
+  .bodypart .imagepart
+ {
+    width:1104px;
+    height:300px;
+     border-style:dotted;
+     background-size:cover;
+     display:inline-block;
+     opacity:1.5;
+     object-fit:cover;
+ } 
+
+.bodypart .newspart h2
+  {
+    color:#4d0000;
+    margin-left:60px;
+    
+   }
+
+ .bodypart .newspart
+   {
+     width:378px;
+    height:593px;
+    border-style:solid;
+     float:right;
+     
+     }
+
+ .bodypart .newspart .news
+   {
+    width:350px;
+    height:506px;
+   margin-left:20px;
+  }
+
+   .bodypart .newspart .news h4
+ {
+    color:blue;
+    text-align:center;
+    margin-left:20px;
+ }
+
+    .bodypart h3
+  {
+  color:blue;
+  text-align:center;
+  margin: 1%;
+  
+   }
+
+   .footerpart
+  {
+    width:1480px;
+    height:20px;
+    margin-top:2px;
+    border-width: medium;
+    background-color:#33475b;
+    color:white;
+    font-size:18px;
+    text-align: center;
+    padding:0.6%;
+
+}
+
+  
